@@ -1,0 +1,5 @@
+conda_build_tool: rattler-build
+bot:
+  automerge: true
+  inspection: update-grayskull
+conda_install_tool: pixi
