@@ -4,7 +4,7 @@
 # CACHE_DIT_BUILD_SVDQUANT=1) and not included in this noarch recipe.
 
 context:
-  version: "1.5.2"
+  version: "1.5.3"
 
 package:
   name: cache-dit
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://github.com/vipshop/cache-dit/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2df8ee8f136d2c96932f24e901b899ef5e776788ba45f924c392785c5c428eb4
+  sha256: f83cb24c857746c4e41a5c5fa0447fa1acb62aeaba680aa86327d457c0c8a5e0
 
 build:
   number: 0
